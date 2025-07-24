@@ -1,0 +1,69 @@
+/* Estilos generales para la landing page */
+
+:root {
+  --color-primario: #2d6cdf;
+  --color-secundario: #f5f6fa;
+  --color-acento: #ffb400;
+  --color-texto: #222;
+  --color-texto-secundario: #555;
+  --fuente-principal: 'Inter', Arial, sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--fuente-principal);
+  background: var(--color-secundario);
+  color: var(--color-texto);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-primario);
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+a {
+  color: var(--color-primario);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: var(--color-acento);
+}
+
+button, input, textarea {
+  font-family: inherit;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.section {
+  padding: 4rem 0;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: var(--color-secundario);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-primario);
+  border-radius: 4px;
+}
