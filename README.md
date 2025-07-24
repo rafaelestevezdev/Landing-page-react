@@ -128,22 +128,10 @@ mi-landing-page/
 - **Organización de Archivos** - Estructura clara y mantenible
 - **Importación/Exportación** - Módulos ES6 en React
 
-## 🔄 Próximas Mejoras
-
-- [ ] Implementar hooks (useState, useEffect)
-- [ ] Agregar interactividad con JavaScript
-- [ ] Incorporar animaciones y transiciones
-- [ ] Añadir formulario funcional de contacto
-- [ ] Implementar routing con React Router
-- [ ] Agregar tests unitarios
 
 ## 🤝 Contribuciones
 
 Este es un proyecto de aprendizaje personal, pero las sugerencias y mejoras son bienvenidas.
-
-## 📄 Licencia
-
-Este proyecto está bajo la licencia MIT - ver el archivo LICENSE para más detalles.
 
 ---
 
